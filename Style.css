@@ -1,0 +1,254 @@
+/* ===== BASIC SETTINGS ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* Used for every icon (emoji) */
+.icon {
+  font-size: 36px;
+}
+
+/* ===== BUTTONS ===== */
+.green-button {
+  background-color: #1f6b2e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.white-button {
+  background-color: white;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* ===== HEADER ===== */
+.header {
+  display: flex;                  /* puts logo and menu side by side */
+  justify-content: space-between; /* logo on left, menu on right */
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.logo h2 {
+  margin: 0;
+  color: #123d1f;
+}
+
+.logo small {
+  font-size: 10px;
+  color: #1f6b2e;
+}
+
+.menu a {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(to bottom, #f2c866, #6e8f3a, #355c24);
+  color: white;
+  margin: 0 30px;
+  padding: 60px 50px 90px 50px;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #8ee08a;
+  margin: 5px 0;
+}
+
+.hero p {
+  max-width: 400px;
+}
+
+.small-title {
+  font-size: 22px;
+}
+
+/* ===== BENEFITS (4 items in a white box) ===== */
+.benefits {
+  display: flex;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  margin: -50px auto 0 auto;   /* negative number moves it up over the hero */
+  padding: 20px 0;
+  position: relative;
+}
+
+.benefit {
+  flex: 1;                     /* each item gets equal width */
+  text-align: center;
+  padding: 0 15px;
+  border-right: 1px solid #ddd;
+}
+
+.benefit:last-child {
+  border-right: none;          /* no line after the last item */
+}
+
+.benefit h3 {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.benefit p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* ===== WHY CHOOSE US ===== */
+.why {
+  text-align: center;
+  padding: 50px 40px 20px 40px;
+}
+
+.why h2 {
+  color: #1f6b2e;
+}
+
+.why p {
+  color: #666;
+}
+
+/* A row holds boxes side by side */
+.row {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.box {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px 10px;
+}
+
+.box h3 {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #123d1f;
+}
+
+.box p {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* ===== PRODUCTS ===== */
+.products {
+  padding: 0 40px 40px 40px;
+}
+
+.product {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;            /* keeps the colored top inside the rounded corners */
+}
+
+.product-image {
+  height: 120px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;          /* centers the emoji up and down */
+}
+
+.brown { background-color: #a98250; }
+.dark-brown { background-color: #5c4326; }
+.blue { background-color: #7f9fc4; }
+.light-green { background-color: #8fb870; }
+
+.product h3 {
+  margin: 10px 10px 3px 10px;
+  font-size: 14px;
+  color: #123d1f;
+}
+
+.product p {
+  margin: 0 10px 12px 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* ===== COMMUNITY BANNER ===== */
+.community {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14432a;
+  color: white;
+  padding: 30px 60px;
+}
+
+.community h2 {
+  margin: 0 0 5px 0;
+}
+
+.community p {
+  margin: 0;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  display: flex;
+  gap: 30px;
+  background-color: #1a1f1b;
+  color: #aab3ab;
+  padding: 30px 40px;
+  font-size: 13px;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h3 {
+  color: white;
+  font-size: 15px;
+}
+
+.footer-column p {
+  margin: 6px 0;
+}
+
+.footer-column input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-column button {
+  width: 96%;
+  padding: 8px;
+  background-color: #1f6b2e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
